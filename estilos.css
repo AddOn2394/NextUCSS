@@ -82,13 +82,40 @@ div [class*="bloque"]{
 }
 .bloqueContacto{
     order: 1;
+    flex-grow: 1;
 }
 .bloqueTerminos{
     order: 2;   
+    flex-grow: 2;    
 }
 .bloqueRedes{
     order: 3;   
+    flex-grow: 3;    
 }
 .bloqueDerechos{
     order: 4;   
+    flex-grow: 4;    
+}
+.galeria {
+    background-color: #C6d5c5;
+    width: 100%;
+    display: flex;
+   
+}
+.foto_responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+div[class^='fotoP']{
+    padding: 15px 15px 15px 15px;        
+}
+#foto1{
+    filter: blur(10px);
+}
+#foto2, #foto4, #foto6{
+    filter: grayscale(100%);
+}
+#foto3{
+    filter: sepia(90%);
 }
